@@ -49,15 +49,13 @@ class LinkedList():
                     prevNode.next = node 
         
 
-node1 = Node(1, 'Mike')
-node2 = Node(2, 'Mary')
-node3 = Node(3, 'Felicity')
-node4 = Node(4, 'Daniel')
-node11 = Node(1, 'Mikey')
+node1 = Node(1, 'Twin')
+node2 = Node(2, 'Full')
+node3 = Node(3, 'Queen')
+node4 = Node(4, 'King')
 
 myLL = LinkedList()
 myLL.addNode(node1)
 myLL.addNode(node2)
 myLL.addNode(node3)
 myLL.addNode(node4)
-myLL.addNode(node11)
