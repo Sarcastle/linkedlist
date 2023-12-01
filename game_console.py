@@ -1,3 +1,10 @@
+thisdict = {
+    "name": "Xbox",
+    "storage": "500G",
+    "portable": "False"
+}
+print(thisdict)
+
 class GameConsole(): 
    
     def __init__(self, name: str = '', storage: str = '', portable: bool = False) -> None:
