@@ -12,7 +12,6 @@ def insertionSort(arr):
         arr[j + 1] = key
  
  
-
 arr = [22, 4, 13, 7, 20]
 insertionSort(arr)
 for i in range(len(arr)):
