@@ -2,7 +2,7 @@ def insertionSort(arr):
     n = len(arr)  # gets length of array
       
     if n <= 1:
-        return  # if array has 0 or 1 it returns 
+        return  # if array has 0 or 1 it returns because it is already sorted
     for i in range(1, n):  # iterates from array starting at second element 
         key = arr[i] # stores the current element as the key 
         j = i-1
